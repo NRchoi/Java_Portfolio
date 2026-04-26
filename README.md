@@ -15,7 +15,7 @@ I am an aspiring software engineer and database programmer in Hong Kong, focused
 - Git & collaborative workflows
 
 ## Contact
-- GitHub: [your profile link]
+- GitHub: https://github.com/NRchoi
 - Email: NRchoi@outlook.com
 - LinkedIn: [your LinkedIn]
 
