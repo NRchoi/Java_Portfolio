@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+
+public class Main {
+String weapon = "Hand_Gun";
+String username = " ";
+String land1 = "PcFry";
+String land2 = "McFry";
+String land = " ";
+String landname = " ";
+Integer weapon_demage = 12;
+Integer Userhealth = 100;
+    public static void main(String[] args) {
+      System.out.println("Welcome to OctoMacToe.\nThis is a searching resources survival game.\nYou need to pick one land for building your own world! \nBefore the game start I need you to type your username. ");
+      Scanner scan = new Scanner(System.in);
+      String username = scan.nextLine();
+      System.out.println("Hello " + username  + " ! \nYou may pick your land now \nYou have to chooce one of the land for develop your world");
+      System.out.println("Option: PcFry / McFry");
+      String landname = "";
+      while (landname.isEmpty()){
+        System.out.print("Enter landname :  ");
+        landname = scan.nextLine().trim();
+      }
+      
+      
+      switch (landname){
+        case "PcFry":
+          System.out.println("You have chose PcFry. \nThis is the land with full of free electronic supplies");
+          break;
+          
+        case "McFry":
+          System.out.println("You have choose McFry \nThis is the land with full of chicken wings and free fast food");
+          break;
+          
+        default:
+          System.out.println("There are no such as landname here. \nPlease choose it again!");
+      }
+      scan.close();
+    }
+}
