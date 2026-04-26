@@ -31,6 +31,6 @@ Contact
 
 GitHub: https://github.com/NRchoi  
 Email: NRchoi@outlook.com
-LinkedIn: (add your link)
+LinkedIn: 
 
 
