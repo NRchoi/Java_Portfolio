@@ -1,4 +1,4 @@
-# Java Portfolio - Rochelle
+# Java Portfolio - Rochelle Choi
 
 Welcome to my portfolio showcasing Java projects.  
 I am an aspiring software engineer and database programmer in Hong Kong, focused on backend development, database integration, and problem-solving.
@@ -16,6 +16,6 @@ I am an aspiring software engineer and database programmer in Hong Kong, focused
 
 ## Contact
 - GitHub: [your profile link]
-- Email: [your email]
+- Email: NRchoi@outlook.com
 - LinkedIn: [your LinkedIn]
 
