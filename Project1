@@ -8,6 +8,10 @@ String land1 = "PcFry";
 String land2 = "McFry";
 String land = " ";
 String landname = " ";
+String GO1 = "front";
+String GO2 = "back";
+String GO3 = "left";
+String GO4 = "right";
 Integer weapon_demage = 12;
 Integer Userhealth = 100;
     public static void main(String[] args) {
@@ -35,6 +39,43 @@ Integer Userhealth = 100;
         default:
           System.out.println("There are no such as landname here. \nPlease choose it again!");
       }
-      scan.close();
+      
+      Main game = new Main();
+      game.Start_The_Land();
+    }
+    public void Start_The_Land(){
+        System.out.println("\nYou got your land and your weapon is in your inventory. \nYou may start your land now! \nRemember fight the land invator with your weapon");
+        
+        String command = "";
+        
+        while(!command.equals("exit")){
+            System.out.println("\nWhere are you going to start your journey?");
+            System.out.println("Opstions: front / back / left / right / exit");
+            System.out.print("Enter command: ");
+            
+            Scanner scan = new Scanner(System.in);
+            command = scan.nextLine().trim().toLowerCase();
+            
+            switch(command){
+                case"front":
+                    System.out.println("You started to walk straight ahead until you see something on the ground.");
+                    break;
+                    
+                case"back":
+                    System.out.println("You started to walk backward from your land until your land got expanded.");
+                    break;
+                    
+                case"left":
+                    System.out.println("You started to walk left then you are really left something !LOL");
+                    break;
+                    
+                case"right":
+                    System.out.println("You started to walk the right way.\nJourney begans");
+                    break;
+                    
+                default:
+                    System.out.println("Invalid command. Try again.");
+            }
+        }
     }
 }
